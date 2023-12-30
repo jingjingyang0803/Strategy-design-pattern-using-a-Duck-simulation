@@ -29,7 +29,27 @@ Git tags have been used to identify the different steps in deducing the pattern.
 
 This `App.java` file serves as an example to showcase the implementation and usage of various duck objects and their behaviors in the strategy pattern.
 
-```
+## Get Started
+
+Follow the steps below to run the project:
+
+1. Clone the project and navigate to its directory.
+2. Clean and package the project using Maven:
+    
+    ```
+    mvn clean package
+    ```
+    
+3. Run the `.jar` file:
+    
+    ```
+    java -jar target/duck-project-1.0-SNAPSHOT.jar
+    ```
+    
+
+You should see the following output:
+
+```jsx
 Hello World!
 -------------------------
 All ducks float, even decoys!
@@ -53,4 +73,5 @@ All ducks float, even decoys!
 I'm a wooden decoy duck
 I can't fly
 << Silence >>
+
 ```
